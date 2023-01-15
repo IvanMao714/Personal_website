@@ -1,0 +1,14 @@
+#hnav{
+    background-color: rgb(0, 0, 0);  opacity: 60%; 
+}
+#hnav > li > a{
+    color: rgb(255, 255, 255); 
+} 
+
+#hnav > li > a:hover{
+    background-color: rgb(34, 134, 248);  opacity: 100%; 
+} 
+
+head{
+    margin: 50px;
+}

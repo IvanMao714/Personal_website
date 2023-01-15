@@ -1,0 +1,23 @@
+{
+  "id": "3302894",
+  "name": "social",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7714975",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "23329021",
+      "name": "instgram",
+      "font_class": "a-4",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

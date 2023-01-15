@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3297918 */
+  src: url('/iconfont.0a72ca4b.woff2?t=1650594087112') format('woff2'),
+       url('/iconfont.967e9f0c.woff?t=1650594087112') format('woff'),
+       url('/iconfont.67dedf1a.ttf?t=1650594087112') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangzuojiantou:before {
+  content: "\e641";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e642";
+}
+
+.icon-xialajiantouxiao:before {
+  content: "\e87e";
+}
+
+.icon-Camera:before {
+  content: "\e656";
+}
+
+.icon-Folder-Open:before {
+  content: "\e65d";
+}
+
+.icon-Home:before {
+  content: "\e65f";
+}
+
+.icon-Message:before {
+  content: "\e660";
+}
+
+.icon-Phone:before {
+  content: "\e661";
+}
+
+.icon-Smile:before {
+  content: "\e663";
+}
+
+.icon-User-Single:before {
+  content: "\e666";
+}
+
+
+
+/*# sourceMappingURL=/iconfont.cff90be3.css.map */

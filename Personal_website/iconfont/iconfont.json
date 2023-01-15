@@ -1,0 +1,79 @@
+{
+  "id": "3297918",
+  "name": "PW",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2077550",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "2077553",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "2076220",
+      "name": " 下拉箭头小",
+      "font_class": "xialajiantouxiao",
+      "unicode": "e87e",
+      "unicode_decimal": 59518
+    },
+    {
+      "icon_id": "28660969",
+      "name": "Camera",
+      "font_class": "Camera",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "28661011",
+      "name": "Folder-Open",
+      "font_class": "Folder-Open",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "28661036",
+      "name": "Home",
+      "font_class": "Home",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "28661047",
+      "name": "Message",
+      "font_class": "Message",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "28661053",
+      "name": "Phone",
+      "font_class": "Phone",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "28661073",
+      "name": "Smile",
+      "font_class": "Smile",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "28661096",
+      "name": "User-Single",
+      "font_class": "User-Single",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    }
+  ]
+}

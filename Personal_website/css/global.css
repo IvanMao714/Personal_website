@@ -1,0 +1,152 @@
+body{height: 100%;}
+
+a{text-decoration: none;color: #000;}
+
+.Page{margin: auto;height: auto;width: 1000px;position: relative; border-bottom: solid 2px rgb(223, 217, 217) ;}
+/* .Page{margin: auto;height: auto;width: 100%;position: relative; } */
+
+.content{position: relative;margin: 5% 0;}
+
+h2{width: 300px;text-align: left;overflow: hidden;text-transform: uppercase;letter-spacing: 5px;font-size: 24px;
+color: #333;position: relative;margin-top: 5%; height: 35px;line-height: 50px;text-shadow: 0px 0px 10px rgb(0 0 0 / 10%);}
+
+h4{color: rgb(247, 239, 239); font-size: 30px;}
+
+h5{margin-top: 10px; color: rgb(247, 239, 239);font-size: 20px;}
+
+#particles-js{position: absolute;margin: auto; top: 0; left: 0; z-index: 1;}
+
+
+.navigation { position: fixed; top: 50%; right: 0; margin-top: -75px; z-index: 100; width: 15px; height: 150px; margin-right: 25px;}
+.navigation .neitem{ position: relative; line-height: 30px;}
+.navigation a{ overflow:hidden; transition: 1s;}
+.navigation i{ font-size: 1.3em; font-weight: 600; color: rgb(111, 110, 110); }
+.navigation p{ width: 100px; position: absolute; top: 1px; right: 20px; text-align: center; opacity: 0; 
+transition: all 0.2s ease-in-out;}
+.neitem i:hover ~ p{color: black; font-weight: 900; font-size: 1em; opacity: 1;}
+
+.hnav{position: absolute; width: 100%; height: 6%; z-index: 100; background-color: rgb(0, 0, 0); left: 50%; transform: translate(-50%,0%); opacity: 60%;}
+.hnav .hitem{ position: relative; float: left; width: 20%; height: 100%; text-align: center; line-height: 50px; opacity: 100%; }
+.hnav .hitem p{ color: #fff; }
+
+.home{ height: 100vh;  position: relative; background-size: cover; background-position: 0%;
+border-bottom: solid 2px rgb(223, 217, 217); z-index: 10;}
+.home .name{ color: rgb(255, 255, 255); top: 10px; left: 20px; position: relative;}
+.home .content{height: auto;  top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; position: absolute; border-bottom: 0;}
+.home .content h1{ font-size:4em; font-weight: 900; margin-block-start: 0.83em; margin-block-end: 0.83em; 
+text-shadow: #000 5px 5px 100px;}
+.home .content h3{ padding-top: 10px;font-size: 1em; font-weight: 700;}
+.home .arr{ position: absolute; bottom: 5%; left:50%; transform: translateX(-50%); font-weight: 900; 
+animation: bounce 3s infinite 3s normal;}
+.home .arr i{ font-size: 1.5em;}
+
+/* .hey {position: relative; width: 80%; left:50%; transform: translateX(-50%);}
+.hey .content{width: 1200px;}
+.hey .text{ margin:4% 0; width: 370px; height: 70%; position: relative; letter-spacing: 0.em; line-height: 2em; overflow:hidden;}
+.hey .text a{ color:rgb(68, 67, 67);}
+.hey .link {  display: block; position: relative; left: 0px; animation: 3s shift ;}
+.hey .link a{ padding-right: 20px;}
+.hey .link a i{ font-size: 2.5em;}
+.hey .imag {position: absolute; width: 500px; height:310px;top: 0;right: 0px;overflow: hidden; align-items: center;}
+.imag img {width: 100%; width: 100%;} */
+
+.hey {position: relative;  }
+.hey .text{ margin:4% 0; width: 370px; height: 70%; position: relative; letter-spacing: 0.em; line-height: 2em; overflow:hidden;}
+.hey .text a{ color:rgb(68, 67, 67);}
+.hey .link {  display: block; position: relative; left: 0px; animation: 3s shift ;}
+.hey .link a{ padding-right: 20px;}
+.hey .link a i{ font-size: 2.5em;}
+.hey .imag {position: absolute; width: 500px; height:310px;top: 0;right: 0;overflow: hidden; align-items: center;}
+.imag img {width: 100%; width: 100%;}
+
+@keyframes shift {
+	0%{left: 350px; opacity: 0%;}
+	100%{left: 0; visibility:visible;}
+}
+
+
+.Photograph{ overflow: hidden; padding-bottom: 1%; }
+.Photograph .content{width: 100%;}
+.imag-container { align-items: center; background-color: rgb(6, 5, 5);  }
+.imag-container img { height: 100%; width: 100%; text-align: left; float: left; overflow: hidden;   }
+.one-box-container { width: calc(40% - 2px); height: calc(372px - 2px); overflow: hidden; float: left}
+.one-box-container .imag-container { height: 100%; width: 100%; overflow: hidden;}
+.six-box-container {  width: 60%; height: calc(372px - 2px); margin-left: 2px; float: left;}
+.six-box-container .imag-container { height: calc(50% - 1px);  width: calc(33.3333% - 2px); float: left; margin-right: 2px;
+margin-bottom: 2px; overflow: hidden;}
+.five-box-container { width: 100%; height: 186px; margin-top: 2px; float: left; overflow: hidden;}
+.five-box-container .imag-container { height: 100%; width: calc(20% - 2px); float: left; margin-right: 2px; overflow: hidden;}
+
+
+.project { position: relative;padding-bottom: 1%;}
+.project h2{  margin-bottom: 5%;}
+.project .procontent { height: 500px; perspective: 1000px;transform-style: preserve-3d; }
+
+.project .la{ position: absolute; top: 50%; z-index: 400; transform: translateY(50%); width: 30px; height: 50px;
+color: rgb(255, 255, 255); text-align: center;}
+.project .ra{ position: absolute; top: 50%; transform: translateY(50%); right: 0; z-index: 400; width: 30px; height: 50px;
+color: rgb(255, 255, 255);}
+.project .iconfont{ position: absolute; top: 50%; transform: translateY(-50%);  opacity: 50%;}
+.project .circle{position: absolute;left: 0;right: 0;bottom: 40px;;text-align: center;}
+.project .circle > li {border-radius:50% ;width: 15px;height: 15px;background: rgba(255,255,255,0.5); margin: 2px;
+display: inline-block;box-shadow: 0 0 4px rgba(25,25,25,0.8);cursor:pointer;}
+.project .circle > li.active{background: white;cursor:default;}
+.project .procontent > li{position: absolute;left: 0;right: 0;top: 0;bottom: 0;}
+/* .project .a:hover{background-color: #000;opacity: 50%;cursor:pointer} */
+
+.one{ background: url(../img/3.jpg); overflow: hidden; position: relative;z-index: 100;}
+.one .content{ background-color: #000; width: 40%; height: 90%; margin: 5%; padding: 3%; opacity: 70%; border-radius: 10px;}
+.one .content p{ color: rgb(255, 255, 255);  margin-top: 5%;  line-height: 20px; opacity: 150%;}
+.one img{ position:absolute; top: 40px; right: 130px;float: right; width: 25%; border-radius: 15px;}
+.one .title{width: 240px; height: 20px; background-color: rgba(240, 248, 255, 0.6); position:absolute; bottom: 0; right:0; 
+text-align: right; padding-right: 10px; border-radius: 10px;}
+
+.two{ background: url(../img/5.jpg);position: relative;}
+.two img{ position:absolute; top: 140px; left: 30px;float: right; width: 50%; border-radius: 15px;}
+.two .content{ background-color: rgb(178, 207, 61,0.4);  margin: 5%; padding: 3%; width: 36%; height: 70%; border-radius: 10px; left: 500px;}
+.two .content p{ color: rgb(255, 255, 255);  margin-top: 7%;  line-height: 30px; opacity: 150%;}
+.two .title{width: 140px; height: 20px; background-color: rgba(240, 248, 255, 0.6); position:absolute; bottom: 0; right:0; 
+	text-align: right; padding-right: 10px; border-radius: 10px;}
+
+
+.circle > li.active{background: white;cursor:default;}
+				
+	/*从左往右 leftHide  rightShow*/
+	.procontent > li.leftHide{visibility: hidden;animation:1s leftHide 1 linear;}
+	.procontent > li.rightShow{visibility: visible;animation:1s rightShow 1 linear;}
+	@keyframes leftHide{
+		0%{visibility: visible;}
+		50%{transform: translateX(-40%) rotateY(30deg) scale(.8);}
+		100%{transform: translateZ(-200px);}
+	}
+	@keyframes rightShow{
+	    0%{visibility: hidden;transform: translateZ(-200px);}
+		50%{transform: translateX(40%) rotateY(-30deg) scale(.8);}
+		100%{}
+	}
+					/*从右往左 leftShow  rightHide*/
+	.procontent > li.leftShow{visibility: visible;animation:1s leftShow 1 linear;}
+	.procontent > li.rightHide{visibility: hidden;animation:1s rightHide 1 linear;}
+	@keyframes leftShow{
+		0%{visibility: hidden;transform: translateZ(-200px);}
+		50%{transform: translateX(-40%) rotateY(30deg) scale(.8);}
+		100%{}
+	}
+	@keyframes rightHide{
+		0%{visibility: visible;}
+		50%{transform: translateX(40%) rotateY(-30deg) scale(.8);}
+		100%{transform: translateZ(-200px);}
+	}
+
+.from{ 
+	margin-top: 5%;
+
+}
+
+.bottom-container{position: relative;}
+.bottom-container ul{ padding: 10px; padding-left: 20px; list-style-type:none; text-align: center;}
+.boitem{ font-size: 0.9em; display: inline-block;padding-right: 20px;}
+.boitem a{ text-decoration: none; color: rgb(25, 4, 80);}
+
+.copyright{ float: right; font-size: 0.5em;}
+

@@ -1,0 +1,22 @@
+{
+  "name": "ivanmao714.github.io-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "deploy": "parcel index.html -p 80",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "marked": "^4.2.4",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "three": "^0.147.0"
+  }
+}
