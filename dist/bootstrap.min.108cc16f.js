@@ -168,11 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"iconfont/social/iconfont.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/bootstrap.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./iconfont.woff2":[["iconfont.9d1f0c10.woff2","iconfont/social/iconfont.woff2"],"iconfont/social/iconfont.woff2"],"./iconfont.woff":[["iconfont.be01480b.woff","iconfont/social/iconfont.woff"],"iconfont/social/iconfont.woff"],"./iconfont.ttf":[["iconfont.6ec70538.ttf","iconfont/social/iconfont.ttf"],"iconfont/social/iconfont.ttf"],"_css_loader":"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56986" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "28898" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -342,4 +342,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["C:/Users/65151/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/iconfont.19a6bb6b.js.map
+//# sourceMappingURL=/bootstrap.min.108cc16f.js.map

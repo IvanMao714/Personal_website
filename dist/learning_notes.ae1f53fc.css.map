@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/learning_notes.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"learning_notes.ae1f53fc.css","sourceRoot":"..","sourcesContent":["table {\r\n    margin-top: 50px;\r\n    width: 60%;\r\n}\r\n\r\n.container {\r\n    width: 80%;\r\n}"]}
